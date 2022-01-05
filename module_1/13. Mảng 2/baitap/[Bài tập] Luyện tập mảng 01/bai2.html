@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai2 - Mang2</title>
+</head>
+<body>
+</body>
+</html>
+<script>
+    let num, arr = [];
+    for(let i=0; i<10; i++){
+        num = parseInt(prompt('Nhap so thu ' + i + ': '));
+        arr.push(num);
+    }
+    console.log(arr);
+    document.write('Chuoi so vua nhap vao la: ' + arr.join(', ') + '<br/>');
+
+    let max = arr[0];
+    let vitri = 0;
+    for(let i=1; i<10; i++){
+        if(arr[i] > max){
+            max = arr[i];
+            vitri = i;
+        }
+    }
+    document.write('So lon nhat trong mang la: ' + max + ' tai vi tri thu ' + vitri + ' trong mang');
+</script>

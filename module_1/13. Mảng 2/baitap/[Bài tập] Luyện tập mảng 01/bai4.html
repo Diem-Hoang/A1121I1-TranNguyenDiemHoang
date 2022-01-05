@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai4 - Mang2</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    let giatri, num, arr =[];
+    giatri = parseInt(prompt('Khoi tao mang ? phan tu??'));
+    for(let i=0; i<giatri; i++){
+        num = parseInt(prompt('Nhap phan tu thu ' + i + ':'));
+        arr.push(num);
+    }
+    console.log(arr);
+    document.write('Chuoi vua nhap vao la: ' + arr.join(', ') + '<br/><hr/>');
+    document.write('Dao nguoc chuoi vua nhap: ' + arr.reverse());
+</script>

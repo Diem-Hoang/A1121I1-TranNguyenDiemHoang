@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai3 - Mang2</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    let num, arr = [];
+    for(let i=0; i<10; i++){
+        num = parseInt(prompt('Nhap so thu ' + i + ': '));
+        arr.push(num);
+    }
+    console.log(arr);
+    document.write('Chuoi so vua nhap vao la: ' + arr.join(' - ') + '<br/><hr/>');
+
+    let max = arr[0];
+    let tong = 0;
+    for(let i=0; i<10; i++){
+        if(arr[i] > max){
+            max = arr[i];
+        }
+        tong += arr[i];
+    }
+    let gttb = tong/10;
+    document.write('Gia tri lon nhat trong mang la: ' + max + '<br/><hr/>');
+    document.write('Gia tri trung binh cua cac phan tu trong mang la: ' + gttb);
+</script>

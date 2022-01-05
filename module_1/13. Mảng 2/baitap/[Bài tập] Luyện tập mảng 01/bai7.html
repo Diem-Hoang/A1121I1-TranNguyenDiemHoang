@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai7 - Mang2</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    let num, arr = [];
+    for(let i=0; i<10; i++){
+        num = parseInt(prompt('Nhap so thu ' + i + ': '));
+        arr.push(num);
+    }
+    console.log(arr);
+    document.write('Chuoi so vua nhap vao la: ' + arr.join(', ') + '<br/><hr/>');
+    
+    let V = parseInt(prompt('Nhập số nguyên can tim V: '));
+    let a = arr.indexOf(V);
+    if(a != -1){
+        arr.splice(a, 1);
+        document.write('Chuoi moi: ' + arr.join(', '));
+    }else{
+        document.write('Khong tim thay ' + V + ' trong chuoi!');
+    }
+</script>
