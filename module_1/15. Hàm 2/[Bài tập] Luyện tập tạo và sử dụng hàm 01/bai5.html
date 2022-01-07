@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai5 - Ham2</title>
+</head>
+<body>
+    <form style="text-align: center;" action="#" method="get">
+        <label style="font-size: large;" for="nhap">Nhập tên ngôi sao: </label><br/>
+        <input type="text" id="nhap">
+        <button type="button" onclick="timChomsao()">Tìm</button>
+    </form>
+    <div style="text-align: center; font-size: large;" id="ketqua"></div>
+</body>
+</html>
+<script type="text/javascript">
+
+    let eng = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus']
+    let viet = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo']
+    let check;
+    function timChomsao() {
+        let nhap = document.getElementById('nhap').value;
+        for(let i = 0;i<eng.length;i++) {
+        if(eng[i] === nhap) {
+            document.getElementById('ketqua').innerText = viet[i];
+            check = 1; 
+            break;
+        } 
+        }
+        if (check != 1) {document.getElementById('ketqua').innerText='Không tìm thấy chòm sao nào!'}
+    }
+ 
+    </script>

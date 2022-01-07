@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai8 - Ham2</title>
+</head>
+<body>
+    <script>
+        let soPhantu = parseInt(prompt("Nhập số phần tử của mảng: "));
+        let num, arr = [];
+        for(let i=0; i<soPhantu; i++){
+            num = prompt("Nhập giá trị phần tử thứ " + i + " của mảng");
+            arr.push(num);
+        }
+        function daonguocMang(Array){
+            Array.reverse();
+            document.write(Array.join(", "));
+        }
+ 
+        daonguocMang(arr);
+    </script>
+</body>
+</html>

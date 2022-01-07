@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai4 - Ham2</title>
+</head>
+<body>
+    <script>
+        function checkSo(s){
+            if(s >= '0' && s <= '9'){
+                return true;
+            }
+            return false;
+        }
+        let input = prompt("Nhập kí tự: ");
+        if(checkSo(input)){
+            alert(input + " là một kí tự số");
+        }else{
+            alert(input + " không phải kí tự số");
+        }
+    </script>
+</body>
+</html>

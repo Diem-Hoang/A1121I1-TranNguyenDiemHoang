@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuyển đổi giữa feet và meters</title>
+</head>
+<body>
+    <form>
+        <p>
+            <label>Chuyển đổi giữa feet sang meters</label>
+            <input id="inputFeet" type="number" placeholder="Feet"
+                   oninput="metersConverter(this.value)"
+                   onchange="metersConverter(this.value)">
+        </p>
+        <p>Meters: <span id="outputMeters"></span></p>
+
+        <p>
+            <label>Chuyển đổi giữa meters sang feet</label>
+            <input id="inputMeters" type="number" placeholder="Meters"
+                   oninput="feetConverter(this.value)"
+                   onchange="feetConverter(this.value)">
+        </p>
+        <p>Feet: <span id="outputFeet"></span></p>
+    </form>
+    
+    <script>
+        function metersConverter(feet) {
+            feet = parseFloat(feet);
+            document.getElementById("outputMeters").innerHTML = 0.305 * feet;
+        }
+        function feetConverter(meters) {
+            meters = parseFloat(meters);
+            document.getElementById("outputFeet").innerHTML = 3.279 * meters;
+        }
+     
+    </script>
+
+</body>
+</html>
