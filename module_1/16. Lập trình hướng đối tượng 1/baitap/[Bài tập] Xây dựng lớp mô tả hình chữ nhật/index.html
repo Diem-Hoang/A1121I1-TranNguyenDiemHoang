@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xây dựng lớp mô tả hình chữ nhật</title>
+    <style type="text/css">
+		canvas {border: 1px black solid; width:400; height: 200}
+	</style>
+</head>
+<body>
+    <canvas id="myCanvas"></canvas>
+    <script>
+        class Rectangle{
+            constructor(width, height){
+                this.width = width;
+                this.height = height;
+            }
+            getArea(){
+                return this.width*this.height;
+            }
+            getPerimeter(){
+                return (this.height + this.width)*2;
+            }
+			veHCN() {
+			let rect = document.getElementById('myCanvas').getContext('2d');
+			rect.fillStyle = 'red';
+			rect.fillRect(100,100,this.width,this.height);
+			}
+
+			setChange(newWidth,newHeight) {
+				this.width = newWidth;
+				this.height = newHeight;
+			}
+        }
+        let s = new Rectangle(100,100);
+        alert("Dien Tinh S ="+ s.getArea()+ " Chu vi C=" +s.getPerimeter());
+        s.setChange(50, 50);
+	    s.veHCN();
+
+    </script>
+</body>
+</html>
+
+
