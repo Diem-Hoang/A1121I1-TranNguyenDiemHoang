@@ -1,4 +1,4 @@
-package thuchanh;
+package ss1.thuchanh;
 
 import java.util.Date;
 
