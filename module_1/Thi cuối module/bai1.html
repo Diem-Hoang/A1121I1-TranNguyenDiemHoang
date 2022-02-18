@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1</title>
+</head>
+<body>
+
+<script>
+    let n;
+    do{
+        n = parseInt(prompt("Nhập mảng số nguyên gồm n phần tử (n<50): "));
+        if(n>50) 
+            alert("Xin mời nhập lại!");
+    }while (n>50)
+
+    let arr = new Array(n);
+    for( let i = 0 ; i <n ; i++){
+        arr[i] = parseInt(prompt("Phần tử thứ " + i + " = "))
+    }
+
+    alert("Mảng số nguyên vừa nhập là: " + arr.join(', '));
+
+    let sum = 0;
+    let num = 0;
+    for( let  i=0 ; i<n ; i = i+2){
+          if( arr[i] %2 == 1) {
+              sum += arr[i];
+              num = num + 1;
+          }
+    }
+    if(num>0){
+        let trungbinhcong = sum/num;
+        alert("Trung bình cộng các số lẻ ở vị trí chẵn: " + trungbinhcong);
+    }
+    else{
+        alert("Không có số lẻ trong mảng!");
+    }
+
+</script>
+
+</body>
+</html>

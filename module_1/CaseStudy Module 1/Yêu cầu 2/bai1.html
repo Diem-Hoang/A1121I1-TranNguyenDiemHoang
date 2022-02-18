@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let thue;
+        let luong_rong;
+        let n = prompt("Nhập lương nhân viên: ");
+        if(n < 7000000){
+            thue = n*0.05;
+        }else if(n >= 7000000 || n < 15000000){
+            thue = n*0.1;
+        }else{
+            thue = n*0.2;
+        }
+        luong_rong = n - thue;
+        alert("Thuế thu nhập của nhân viên: " + thue + "\n Lương thực sự của nhân viên: " + luong_rong);
+    </script>
+</body>
+</html>

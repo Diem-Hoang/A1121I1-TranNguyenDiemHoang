@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yêu cầu 5 - Bài 1</title>
+</head>
+<body>
+    <script>
+
+        let m = parseInt(prompt("Nhap m="))
+        let n = parseInt(prompt("Nhap n="))
+    
+        let arr = new Array()
+        let s = 0
+        for ( let i =0 ;i <m ; i++)
+        {
+            arr[i] = new Array()
+            for( let j= 0; j< n ; j++){
+                {
+                    let a = parseInt(prompt("" +
+                        "Nhap gia tri Arr[" + i + "]" + "[" + j + "]= "))
+    
+                    arr[i][j] = a;
+    
+                    if(a%2 == 0)
+                        s=s+a;
+                }
+    
+            }
+        }
+        alert( "Tổng các số chẵn trong ma trận m*n: " + s);
+    
+    
+    </script>
+</body>
+</html>
