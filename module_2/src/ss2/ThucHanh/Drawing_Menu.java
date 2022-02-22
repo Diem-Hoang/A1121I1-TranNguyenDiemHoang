@@ -13,8 +13,7 @@ public class Drawing_Menu {
             System.out.println("0. Exit");
             System.out.print("Enter your choice: ");
             choice = input.nextInt();
-        }
-        switch (choice){
+        switch (choice) {
             case 1:
                 System.out.println("1. Vẽ hình tam giác");
                 System.out.println("* * * * * * *");
@@ -41,7 +40,7 @@ public class Drawing_Menu {
                 System.exit(0);
             default:
                 System.out.println("No choice!");
-
+        }
         }
     }
 }
