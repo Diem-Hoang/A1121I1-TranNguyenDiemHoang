@@ -2,7 +2,7 @@ package ss3.ThucHanh;
 
 import java.util.Scanner;
 
-public class Find_Element_In_Array {
+public class FindElementInArray {
     public static void main(String[] args) {
         String[] names = {"Hoang", "Linh", "Huy", "Son", "Ngoc", "Mai", "Vu", "Quang", "Anh", "Huyen"};
         Scanner input = new Scanner(System.in);

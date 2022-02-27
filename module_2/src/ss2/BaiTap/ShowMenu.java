@@ -3,7 +3,7 @@ package ss2.BaiTap;
 import java.util.Scanner;
 import java.util.logging.SocketHandler;
 
-public class Show_Menu {
+public class ShowMenu {
     public static void main(String[] args) {
         int choice = -1;
         Scanner input = new Scanner(System.in);

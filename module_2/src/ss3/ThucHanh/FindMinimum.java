@@ -1,6 +1,6 @@
 package ss3.ThucHanh;
 
-public class Find_Minimum {
+public class FindMinimum {
     public static void main(String[] args) {
         int[] arr = {2, 66, 24, 67, 18, 96, 109, 35, 78};
         int count = gtnn(arr);

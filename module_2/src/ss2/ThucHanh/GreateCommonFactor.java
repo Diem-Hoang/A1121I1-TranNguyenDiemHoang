@@ -2,7 +2,7 @@ package ss2.ThucHanh;
 
 import java.util.Scanner;
 
-public class Greate_Common_Factor {
+public class GreateCommonFactor {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a: ");

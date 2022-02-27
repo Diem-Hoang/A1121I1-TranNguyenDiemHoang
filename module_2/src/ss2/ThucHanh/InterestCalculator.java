@@ -2,7 +2,7 @@ package ss2.ThucHanh;
 
 import java.util.Scanner;
 
-public class Interest_Calculator {
+public class InterestCalculator {
     public static void main(String[] args) {
         double money = 1.0;
         int month = 1;
