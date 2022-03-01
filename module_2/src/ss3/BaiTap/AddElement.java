@@ -2,7 +2,7 @@ package ss3.BaiTap;
 
 import java.util.Scanner;
 
-public class Add_Element {
+public class AddElement {
         public static void main (String[]args){
             Scanner input = new Scanner(System.in);
             int n;
