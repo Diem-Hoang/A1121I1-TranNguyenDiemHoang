@@ -1,4 +1,4 @@
-package ss7.ThucHanh.fruit;
+package ss7.ThucHanh.InterfaceEdible.fruit;
 
 public class Apple extends Fruit{
     @Override

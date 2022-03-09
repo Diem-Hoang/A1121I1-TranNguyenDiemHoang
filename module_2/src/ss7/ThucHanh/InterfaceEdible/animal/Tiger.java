@@ -1,4 +1,4 @@
-package ss7.ThucHanh.animal;
+package ss7.ThucHanh.InterfaceEdible.animal;
 
 public class Tiger extends Animal{
     @Override
