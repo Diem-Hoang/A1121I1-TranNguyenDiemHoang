@@ -3,26 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c34cd905-2ed5-4b50-8263-1298d91b6024" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/CaseStudy/controllers/FuramaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/models/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/models/Contract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/models/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/models/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/models/Facility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/models/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/models/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/models/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/models/Villa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/services/BookingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/services/BookingServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/services/ContactService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/services/ContractServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/services/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/services/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/services/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/services/EmployeeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/services/FacilityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/services/FacilityServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/services/Service.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ss13/BaiTap/Find_The_Longest_String.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ss13/ThucHanh/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hoang.txt" beforeDir="false" />
@@ -62,19 +42,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ss13.ThucHanh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountStudentPassing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss03.ThucHanh.CountStudentPassing" />
-      <module name="module_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss03.ThucHanh.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,7 +91,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.FuramaController" />
-        <item itemvalue="Application.CountStudentPassing" />
         <item itemvalue="Application.Find_The_Longest_String" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.Main" />
