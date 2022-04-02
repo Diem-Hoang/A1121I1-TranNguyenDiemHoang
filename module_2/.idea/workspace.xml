@@ -2,32 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c34cd905-2ed5-4b50-8263-1298d91b6024" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CaseStudy/controllers/FuramaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/models/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/models/Contract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/models/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/models/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/models/Facility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/models/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/models/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/models/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/models/Villa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/services/BookingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/services/BookingServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/services/ContactService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/services/ContractServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/services/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/services/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/services/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/services/EmployeeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/services/FacilityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/services/FacilityServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/services/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13/BaiTap/Find_The_Longest_String.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13/ThucHanh/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hoang.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy/services/Impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy/services/Impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy/services/Impl/FacilityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss07/BaiTap/InterfaceColorable/Colorable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss07/BaiTap/InterfaceColorable/ColorableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss07/BaiTap/InterfaceColorable/SquareColorable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss14/BaiTap/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss14/ThucHanh/Install_BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16/ThucHanh/Max_In_TextFile/FindMaxValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16/ThucHanh/Max_In_TextFile/ReadAndWriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16/ThucHanh/Max_In_TextFile/numbers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16/ThucHanh/Sum_In_TextFile/ReadFileExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16/ThucHanh/Sum_In_TextFile/file.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/controllers/FuramaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/controllers/FuramaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/models/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/models/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/services/BookingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/services/Impl/BookingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/services/ContractServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/services/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/services/EmployeeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/services/FacilityServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/services/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/services/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/CaseStudy/controllers/FuramaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/CaseStudy/controllers/FuramaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss06/ThucHanh/GeometricObject/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/ss06/ThucHanh/GeometricObject/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss13/BaiTap/Find_The_Longest_String.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/ss13/BaiTap/Find_The_Longest_String.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss06/ThucHanh/GeometricObject/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss06/ThucHanh/GeometricObject/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13/BaiTap/Find_The_Longest_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss13/BaiTap/Find_The_Longest_String.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,15 +58,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.FuramaController">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss13.ThucHanh.BinarySearch" />
+  <component name="RunManager" selected="Application.FindMaxValue">
+    <configuration name="ColorableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss07.BaiTap.InterfaceColorable.ColorableTest" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss13.ThucHanh.*" />
+          <option name="PATTERN" value="ss07.BaiTap.InterfaceColorable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,25 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountStudentPassing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss03.ThucHanh.CountStudentPassing" />
+    <configuration name="FindMaxValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss16.ThucHanh.Sum_In_TextFile.Max_In_TextFile.FindMaxValue" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss03.ThucHanh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Find_The_Longest_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss13.BaiTap.Find_The_Longest_String" />
-      <module name="module_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss13.BaiTap.*" />
+          <option name="PATTERN" value="ss16.ThucHanh.Sum_In_TextFile.Max_In_TextFile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +101,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss12.ThucHanh.HashMap_HashSet.Main" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss14.BaiTap.InsertionSort" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss12.ThucHanh.HashMap_HashSet.*" />
+          <option name="PATTERN" value="ss14.BaiTap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadFileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss16.ThucHanh.Sum_In_TextFile.ReadFileExample" />
+      <module name="module_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss16.ThucHanh.Sum_In_TextFile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindMaxValue" />
+        <item itemvalue="Application.ReadFileExample" />
         <item itemvalue="Application.FuramaController" />
-        <item itemvalue="Application.CountStudentPassing" />
-        <item itemvalue="Application.Find_The_Longest_String" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ColorableTest" />
+        <item itemvalue="Application.InsertionSort" />
       </list>
     </recent_temporary>
   </component>

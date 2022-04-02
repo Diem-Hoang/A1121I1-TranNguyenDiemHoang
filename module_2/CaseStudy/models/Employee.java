@@ -1,10 +1,12 @@
 package CaseStudy.models;
 
+import java.util.Date;
+
 public class Employee extends Person{
     private String qualification;
     private String position;
     private int salary;
-
+    
     public Employee(){
 
     }
@@ -37,5 +39,13 @@ public class Employee extends Person{
 
     public void setSalary(int salary) {
         this.salary = salary;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() +
+                "\nQualification: " + qualification +
+                "\nPosition: " + position +
+                "\nSalary: " + salary;
     }
 }

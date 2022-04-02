@@ -1,5 +1,7 @@
 package CaseStudy.controllers;
 
+import CaseStudy.services.Impl.EmployeeServiceImpl;
+
 import java.util.Scanner;
 
 public class FuramaController {
@@ -44,14 +46,33 @@ public class FuramaController {
 
     }
     public static void displayEmployeeMenu(){
-        System.out.println();
-        System.out.println("_____Sub Menu_____");
-        System.out.println("1.\tDisplay list employees");
-        System.out.println("2.\tAdd new employee");
-        System.out.println("3.\tEdit employee");
-        System.out.println("4.\tReturn main menu");
-        System.out.print("Enter your choose: ");
-        sc.nextInt();
+        EmployeeServiceImpl employeeService = new EmployeeServiceImpl();
+        int choose = 0;
+        do {
+            System.out.println();
+            System.out.println("_____Sub Menu_____");
+            System.out.println("1.\tDisplay list employees");
+            System.out.println("2.\tAdd new employee");
+            System.out.println("3.\tEdit employee");
+            System.out.println("4.\tReturn main menu");
+            System.out.print("Enter your choose: ");
+            switch (sc.nextInt()){
+                case 1:
+                    employeeService.display();
+                    break;
+                case 2:
+                    employeeService.addNew();
+                    break;
+                case 3:
+
+                    break;
+                case 4:
+
+                    break;
+                default:
+                    System.out.println("\nError! Please re-enter your choose!");
+        }}while(choose<1 || choose>4);
+
     }
     public static void displayCustomerMenu(){
         System.out.println();

@@ -1,7 +1,13 @@
 package ss06.ThucHanh.GeometricObject;
 
 public class Square extends Rectangle{
-    public Square() {
+    public Square(){
+
+    }
+    public Square(double side, String color){
+
+    }
+    public Square(double side, double v, String color, boolean filled) {
     }
 
     public Square(double side) {
