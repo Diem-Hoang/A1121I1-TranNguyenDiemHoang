@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c34cd905-2ed5-4b50-8263-1298d91b6024" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss16/BaiTap/CopyFileText/TestCopyFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss16/BaiTap/CopyFileText/sourcefile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss16/BaiTap/ReadFileCSV/Countries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss16/BaiTap/ReadFileCSV/ReadAndWriteFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss16/BaiTap/ReadFileCSV/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss16/BaiTap/ReadFileCSV/countries.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss16/Max_In_TextFile/FindMaxValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss16/Max_In_TextFile/ReadAndWriteFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss16/Max_In_TextFile/numbers.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss16/Max_In_TextFile/result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss16/Sum_In_TextFile/ReadFileExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss16/Sum_In_TextFile/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss16/BaiTap/ReadFileCSV/countries.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/ss16/BaiTap/ReadFileCSV/countries.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,39 +33,13 @@
     <property name="exceleditor.install" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.nhao">
     <configuration name="FindMaxValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss16.ThucHanh.Sum_In_TextFile.Max_In_TextFile.FindMaxValue" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ss16.ThucHanh.Sum_In_TextFile.Max_In_TextFile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FuramaController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CaseStudy.controllers.FuramaController" />
-      <module name="module_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CaseStudy.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReadFileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss16.ThucHanh.Sum_In_TextFile.ReadFileExample" />
-      <module name="module_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss16.ThucHanh.Sum_In_TextFile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,13 +73,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="nhao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss16.ThucHanh.Sum_In_TextFile.nhao" />
+      <module name="module_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss16.ThucHanh.Sum_In_TextFile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nhap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss16.ThucHanh.Sum_In_TextFile.nhap" />
+      <module name="module_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss16.ThucHanh.Sum_In_TextFile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.nhao" />
+        <item itemvalue="Application.nhap" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.TestCopyFile" />
         <item itemvalue="Application.FindMaxValue" />
-        <item itemvalue="Application.ReadFileExample" />
-        <item itemvalue="Application.FuramaController" />
       </list>
     </recent_temporary>
   </component>
