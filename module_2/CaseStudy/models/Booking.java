@@ -1,12 +1,11 @@
 package CaseStudy.models;
 
-import java.awt.print.Book;
 import java.util.Date;
 
 public class Booking {
     private String idBooking;
-    private Date startDate;
-    private Date endDate;
+    private String startDate;
+    private String endDate;
     private String idCustomer;
     private String serviceName;
     private String serviceType;
@@ -14,7 +13,7 @@ public class Booking {
     public Booking(){
 
     }
-    public Booking(String idBooking, Date startDate, Date endDate, String idCustomer, String serviceName, String serviceType){
+    public Booking(String idBooking, String startDate, String endDate, String idCustomer, String serviceName, String serviceType){
         this.idBooking = idBooking;
         this.startDate = startDate;
         this.endDate =endDate;
@@ -31,19 +30,19 @@ public class Booking {
         this.idBooking = idBooking;
     }
 
-    public Date getStartDate() {
+    public String getStartDate() {
         return startDate;
     }
 
-    public void setStartDate(Date startDate) {
+    public void setStartDate(String startDate) {
         this.startDate = startDate;
     }
 
-    public Date getEndDate() {
+    public String getEndDate() {
         return endDate;
     }
 
-    public void setEndDate(Date endDate) {
+    public void setEndDate(String endDate) {
         this.endDate = endDate;
     }
 

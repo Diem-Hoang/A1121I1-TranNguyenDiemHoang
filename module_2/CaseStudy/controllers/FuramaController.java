@@ -1,6 +1,8 @@
 package CaseStudy.controllers;
 
+import CaseStudy.services.Impl.CustomerServiceImpl;
 import CaseStudy.services.Impl.EmployeeServiceImpl;
+import CaseStudy.services.Impl.FacilityServiceImpl;
 
 import java.util.Scanner;
 
@@ -64,7 +66,7 @@ public class FuramaController {
                     employeeService.addNew();
                     break;
                 case 3:
-
+                    employeeService.edit();
                     break;
                 case 4:
 
@@ -75,24 +77,98 @@ public class FuramaController {
 
     }
     public static void displayCustomerMenu(){
-        System.out.println();
-        System.out.println("_____Sub Menu_____");
-        System.out.println("1.\tDisplay list customers");
-        System.out.println("2.\tAdd new customer");
-        System.out.println("3.\tEdit customer");
-        System.out.println("4.\tReturn main menu");
-        System.out.print("Enter your choose: ");
-        sc.nextInt();
+        int choose = 0;
+        CustomerServiceImpl customerService = new CustomerServiceImpl();
+        do{
+            System.out.println();
+            System.out.println("_____Sub Menu_____");
+            System.out.println("1.\tDisplay list customers");
+            System.out.println("2.\tAdd new customer");
+            System.out.println("3.\tEdit customer");
+            System.out.println("4.\tReturn main menu");
+            System.out.print("Enter your choose: ");
+            sc.nextInt();
+            switch (sc.nextInt()){
+                case 1:
+                    customerService.display();
+                    break;
+                case 2:
+                    customerService.addNew();
+                    break;
+                case 3:
+                    customerService.edit();
+                    break;
+                case 4:
+
+                    break;
+                default:
+                    System.out.println("\nError! Please re-enter your choose!");
+            }
+        }while(choose<1 || choose>4);
     }
     public static void displayFacilityMenu(){
-        System.out.println();
-        System.out.println("_____Sub Menu_____");
-        System.out.println("1.\tDisplay list facility");
-        System.out.println("2.\tAdd new facility");
-        System.out.println("3.\tDisplay list facility maintenance");
-        System.out.println("4.\tReturn main menu");
-        System.out.print("Enter your choose: ");
-        sc.nextInt();
+        int choose = 0;
+        FacilityServiceImpl facilityService = new FacilityServiceImpl();
+        do{
+            System.out.println();
+            System.out.println("_____Sub Menu_____");
+            System.out.println("1.\tDisplay list facility");
+            System.out.println("2.\tAdd new facility");
+            System.out.println("3.\tDisplay list facility maintenance");
+            System.out.println("4.\tReturn main menu");
+            System.out.print("Enter your choose: ");
+            sc.nextInt();
+            switch (sc.nextInt()){
+                case 1:
+                    facilityService.display();
+                    break;
+                case 2:
+                    addNewFacilityMenu();
+                    break;
+                case 3:
+                    facilityService.displayMaintain();
+                    break;
+                case 4:
+
+                    break;
+                default:
+                    System.out.println("\nError! Please re-enter your choose!");
+            }
+        }while(choose<1 || choose>4);
+    }
+
+    public static void addNewFacilityMenu(){
+        int choose = 0;
+        FacilityServiceImpl facilityService = new FacilityServiceImpl();
+        do{
+            System.out.println();
+            System.out.println("_____Sub Menu_____");
+            System.out.println("1.\tAdd new villa");
+            System.out.println("2.\tAdd new house");
+            System.out.println("3.\tAdd new room");
+            System.out.println("4.\tBack to menu");
+            System.out.print("Enter your choose: ");
+            sc.nextInt();
+            switch (sc.nextInt()){
+                case 1:
+                    facilityService.addNewVilla();
+                    displayFacilityMenu();
+                    break;
+                case 2:
+                    facilityService.addNewHouse();
+                    displayFacilityMenu();
+                    break;
+                case 3:
+                    facilityService.addNewRoom();
+                    displayFacilityMenu();
+                    break;
+                case 4:
+
+                    break;
+                default:
+                    System.out.println("\nError! Please re-enter your choose!");
+            }
+        }while(choose<1 || choose>4);
     }
     public static void displayBookingMenu(){
         System.out.println();

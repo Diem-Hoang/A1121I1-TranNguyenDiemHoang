@@ -2,8 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c34cd905-2ed5-4b50-8263-1298d91b6024" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CaseStudy/utils/BookingComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss17/ThucHanh/CopyFileBinary/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss17/ThucHanh/CopyFileBinary/copy_demo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss17/ThucHanh/CopyFileBinary/demo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss17/ThucHanh/ReadAndWriteFileBinary/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss17/ThucHanh/ReadAndWriteFileBinary/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss19/ThucHanh/CrawlSongList/CrawlSongExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss19/ThucHanh/ValidateAccount/AccountExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss19/ThucHanh/ValidateAccount/AccountExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss19/ThucHanh/ValidateEmail/EmailExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss19/ThucHanh/ValidateEmail/EmailExampleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss16/BaiTap/ReadFileCSV/countries.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/ss16/BaiTap/ReadFileCSV/countries.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/controllers/FuramaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/controllers/FuramaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/models/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/models/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/models/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/models/Facility.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/models/Facility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/models/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/models/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/models/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/models/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/models/Villa.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/models/Villa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/services/FacilityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/services/FacilityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/services/Impl/BookingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/services/Impl/BookingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/services/Impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/services/Impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/services/Impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/services/Impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/services/Impl/FacilityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/services/Impl/FacilityServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/CaseStudy/controllers/FuramaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/CaseStudy/controllers/FuramaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/CaseStudy/models/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/CaseStudy/models/Booking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/CaseStudy/models/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/CaseStudy/models/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/CaseStudy/models/Facility.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/CaseStudy/models/Facility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/CaseStudy/models/House.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/CaseStudy/models/House.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/CaseStudy/models/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/CaseStudy/models/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/CaseStudy/models/Villa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/CaseStudy/models/Villa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/CaseStudy/services/FacilityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/CaseStudy/services/FacilityService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/CaseStudy/services/Impl/BookingServiceImpl$ContractServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/CaseStudy/services/Impl/BookingServiceImpl$ContractServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/CaseStudy/services/Impl/BookingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/CaseStudy/services/Impl/BookingServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/CaseStudy/services/Impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/CaseStudy/services/Impl/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/CaseStudy/services/Impl/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/CaseStudy/services/Impl/EmployeeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/CaseStudy/services/Impl/FacilityServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/CaseStudy/services/Impl/FacilityServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss16/ThucHanh/Sum_In_TextFile/nhao.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +57,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="26mMXPgWiYJ2MkJlDEL6CwnhDB0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -33,13 +78,13 @@
     <property name="exceleditor.install" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.nhao">
-    <configuration name="FindMaxValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss16.ThucHanh.Sum_In_TextFile.Max_In_TextFile.FindMaxValue" />
+  <component name="RunManager" selected="Application.AccountExampleTest">
+    <configuration name="AccountExampleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss19.ThucHanh.ValidateAccount.AccountExampleTest" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss16.ThucHanh.Sum_In_TextFile.Max_In_TextFile.*" />
+          <option name="PATTERN" value="ss19.ThucHanh.ValidateAccount.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -47,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss16.BaiTap.ReadFileCSV.Test" />
+    <configuration name="EmailExampleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss19.ThucHanh.ValidateEmail.EmailExampleTest" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss16.BaiTap.ReadFileCSV.*" />
+          <option name="PATTERN" value="ss19.ThucHanh.ValidateEmail.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCopyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss16.BaiTap.CopyFileText.TestCopyFile" />
+    <configuration name="FuramaController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CaseStudy.controllers.FuramaController" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss16.BaiTap.CopyFileText.*" />
+          <option name="PATTERN" value="CaseStudy.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="nhao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss16.ThucHanh.Sum_In_TextFile.nhao" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss17.ThucHanh.ReadAndWriteFileBinary.Main" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss16.ThucHanh.Sum_In_TextFile.*" />
+          <option name="PATTERN" value="ss17.ThucHanh.ReadAndWriteFileBinary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="nhap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss16.ThucHanh.Sum_In_TextFile.nhap" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss17.ThucHanh.CopyFileBinary.Main" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss16.ThucHanh.Sum_In_TextFile.*" />
+          <option name="PATTERN" value="ss17.ThucHanh.CopyFileBinary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.nhao" />
-        <item itemvalue="Application.nhap" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestCopyFile" />
-        <item itemvalue="Application.FindMaxValue" />
+        <item itemvalue="Application.AccountExampleTest" />
+        <item itemvalue="Application.EmailExampleTest" />
+        <item itemvalue="Application.FuramaController" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -131,5 +176,16 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ss17/ThucHanh/CopyFileBinary/Main.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
