@@ -1,5 +1,6 @@
 package CaseStudy.controllers;
 
+import CaseStudy.services.Impl.BookingServiceImpl;
 import CaseStudy.services.Impl.CustomerServiceImpl;
 import CaseStudy.services.Impl.EmployeeServiceImpl;
 import CaseStudy.services.Impl.FacilityServiceImpl;
@@ -87,7 +88,6 @@ public class FuramaController {
             System.out.println("3.\tEdit customer");
             System.out.println("4.\tReturn main menu");
             System.out.print("Enter your choose: ");
-            sc.nextInt();
             switch (sc.nextInt()){
                 case 1:
                     customerService.display();
@@ -117,7 +117,6 @@ public class FuramaController {
             System.out.println("3.\tDisplay list facility maintenance");
             System.out.println("4.\tReturn main menu");
             System.out.print("Enter your choose: ");
-            sc.nextInt();
             switch (sc.nextInt()){
                 case 1:
                     facilityService.display();
@@ -148,7 +147,6 @@ public class FuramaController {
             System.out.println("3.\tAdd new room");
             System.out.println("4.\tBack to menu");
             System.out.print("Enter your choose: ");
-            sc.nextInt();
             switch (sc.nextInt()){
                 case 1:
                     facilityService.addNewVilla();
@@ -171,17 +169,39 @@ public class FuramaController {
         }while(choose<1 || choose>4);
     }
     public static void displayBookingMenu(){
-        System.out.println();
-        System.out.println("_____Sub Menu_____");
-        System.out.println("1.\tAdd new booking");
-        System.out.println("2.\tDisplay list booking");
-        System.out.println("3.\tCreate new constracts");
-        System.out.println("4.\tDisplay list contracts");
-        System.out.println("5.\tEdit contracts");
-        System.out.println("6.\tReturn main menu");
-        System.out.print("Enter your choose: ");
-        sc.nextInt();
+        int choose = 0;
+        BookingServiceImpl bookingService = new BookingServiceImpl();
+        do{
+            System.out.println();
+            System.out.println("_____Sub Menu_____");
+            System.out.println("1.\tAdd new booking");
+            System.out.println("2.\tDisplay list booking");
+            System.out.println("3.\tCreate new constracts");
+            System.out.println("4.\tDisplay list contracts");
+            System.out.println("5.\tEdit contracts");
+            System.out.println("6.\tReturn main menu");
+            System.out.print("Enter your choose: ");
+            switch (sc.nextInt()){
+                case 1:
+                    bookingService.addNew();
+                    displayBookingMenu();
+                    break;
+                case 2:
+                    bookingService.display();
+                    displayBookingMenu();
+                    break;
+                case 3:
+
+                    break;
+                case 4:
+
+                    //break;
+                default:
+                    System.out.println("\nError! Please re-enter your choose!");
+            }
+        }while(choose<1 || choose>6);
     }
+
     public static void displayPromotionMenu(){
         System.out.println();
         System.out.println("_____Sub Menu_____");

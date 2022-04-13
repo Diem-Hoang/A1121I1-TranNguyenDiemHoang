@@ -10,7 +10,7 @@ public class Booking {
     private String serviceName;
     private String serviceType;
 
-    public Booking(){
+    public Booking(int id, String startDate, String endDate, Customer customer, Facility facility){
 
     }
     public Booking(String idBooking, String startDate, String endDate, String idCustomer, String serviceName, String serviceType){
