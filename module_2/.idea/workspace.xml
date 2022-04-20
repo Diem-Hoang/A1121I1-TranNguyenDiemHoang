@@ -2,26 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c34cd905-2ed5-4b50-8263-1298d91b6024" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CaseStudy/services/Impl/ContactServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nhap/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nhap/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nhap/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss17/BaiTap/ProductManagement/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss17/BaiTap/ProductManagement/ProductManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss19/BaiTap/ValidateNameClass/ValidateNameClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss19/BaiTap/ValidatePhoneNumber/ValidatePhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalExamModule2/models/BenhAn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalExamModule2/models/DienThoai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalExamModule2/models/DienThoaiChinhHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalExamModule2/models/DienThoaiXachTay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalExamModule2/services/DienThoaiChinhHangImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalExamModule2/services/DienThoaiChinhHangService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalExamModule2/services/DienThoaiXachTayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalExamModule2/services/DienThoaiXachTayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thi_Module2/controllers/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thi_Module2/data/medical_records.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thi_Module2/models/BenhAn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thi_Module2/models/BenhAnThuong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thi_Module2/models/BenhAnVip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thi_Module2/services/BenhAnThuongImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thi_Module2/services/BenhAnThuongService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thi_Module2/services/BenhAnVIPImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thi_Module2/services/BenhAnVIPService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thi_Module2/services/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thi_Module2/utils/ReadAndWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thi_Module2/utils/ReadandWriteBenhAn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thi_Module2/utils/Regex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nhap/ChuNhat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nhap/MyClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy/controllers/FuramaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/controllers/FuramaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy/models/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/models/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/models/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy/services/Impl/BookingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/services/Impl/BookingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/services/Impl/ContactServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/services/Impl/ContactServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nhap/Test.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/module_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module_2/CaseStudy/controllers/FuramaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/CaseStudy/controllers/FuramaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module_2/CaseStudy/models/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/CaseStudy/models/Booking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module_2/CaseStudy/services/Impl/BookingServiceImpl$ContractServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/CaseStudy/services/Impl/BookingServiceImpl$ContractServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module_2/CaseStudy/services/Impl/BookingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/CaseStudy/services/Impl/BookingServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss19/ThucHanh/ValidateEmail/EmailExampleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/ss19/ThucHanh/ValidateEmail/EmailExampleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss19/ThucHanh/ValidateEmail/EmailExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss19/ThucHanh/ValidateEmail/EmailExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/CaseStudy/services/Impl/ContactServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/CaseStudy/services/Impl/ContactServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/nhap/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss16/ThucHanh/Max_In_TextFile/numbers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/ss16/ThucHanh/Max_In_TextFile/numbers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss16/ThucHanh/Max_In_TextFile/numbers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ss16/ThucHanh/Max_In_TextFile/numbers.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +43,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -46,6 +59,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="26mMXPgWiYJ2MkJlDEL6CwnhDB0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -57,20 +73,26 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="exceleditor.install" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ss17/BaiTap/ProductManagement" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../FinalModule2 (2)" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\CODE\A1121I1_TranNguyenDiemHoang\module_2\ss17\BaiTap\ProductManagement" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CODE\A1121I1_TranNguyenDiemHoang\module_2\Thi_Module2\data" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Thi_Module2.utils" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="FuramaController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CaseStudy.controllers.FuramaController" />
+  <component name="RunManager" selected="Application.Controller (1)">
+    <configuration name="Controller (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FinalExamModule2.controllers.Controller" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CaseStudy.controllers.*" />
+          <option name="PATTERN" value="FinalExamModule2.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss17.BaiTap.ProductManagement.ProductManagement" />
+    <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thi_Module2.controllers.Controller" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss17.BaiTap.ProductManagement.*" />
+          <option name="PATTERN" value="Thi_Module2.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,21 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss17.BaiTap.ProductManagement.Test" />
-      <module name="module_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss17.BaiTap.ProductManagement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nhap.Test" />
+    <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nhap.MyClass" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
@@ -117,12 +126,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidateNameClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss19.BaiTap.ValidateNameClass.ValidateNameClass" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss16.BaiTap.ReadFileCSV.Test" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss19.BaiTap.ValidateNameClass.*" />
+          <option name="PATTERN" value="ss16.BaiTap.ReadFileCSV.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCopyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss16.BaiTap.CopyFileText.TestCopyFile" />
+      <module name="module_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss16.BaiTap.CopyFileText.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ValidateNameClass" />
-        <item itemvalue="Application.ProductManagement" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.FuramaController" />
+        <item itemvalue="Application.Controller (1)" />
+        <item itemvalue="Application.Controller" />
+        <item itemvalue="Application.MyClass" />
+        <item itemvalue="Application.TestCopyFile" />
+        <item itemvalue="Application.Test (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +193,15 @@
           <line>7</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ss16/BaiTap/ReadFileCSV/Test.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
