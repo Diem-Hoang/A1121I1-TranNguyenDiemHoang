@@ -2,38 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c34cd905-2ed5-4b50-8263-1298d91b6024" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalExamModule2/models/BenhAn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalExamModule2/models/DienThoai.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalExamModule2/models/DienThoaiChinhHang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalExamModule2/models/DienThoaiXachTay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalExamModule2/services/DienThoaiChinhHangImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalExamModule2/services/DienThoaiChinhHangService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalExamModule2/services/DienThoaiXachTayImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalExamModule2/services/DienThoaiXachTayService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thi_Module2/controllers/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thi_Module2/data/medical_records.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thi_Module2/models/BenhAn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thi_Module2/models/BenhAnThuong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thi_Module2/models/BenhAnVip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thi_Module2/services/BenhAnThuongImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thi_Module2/services/BenhAnThuongService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thi_Module2/services/BenhAnVIPImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thi_Module2/services/BenhAnVIPService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thi_Module2/services/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thi_Module2/utils/ReadAndWrite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thi_Module2/utils/ReadandWriteBenhAn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thi_Module2/utils/Regex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nhap/ChuNhat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nhap/MyClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy/services/Impl/ContactServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/services/Impl/ContactServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nhap/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module_2/CaseStudy/services/Impl/ContactServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/CaseStudy/services/Impl/ContactServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module_2/nhap/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss16/ThucHanh/Max_In_TextFile/numbers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/ss16/ThucHanh/Max_In_TextFile/numbers.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss16/ThucHanh/Max_In_TextFile/numbers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ss16/ThucHanh/Max_In_TextFile/numbers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nhap/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nhap/B.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nhap/ChuNhat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nhap/MyClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module_3/ss01/BaiTap/Student_ManagementDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../module_3/ss01/BaiTap/Student_ManagementDB.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

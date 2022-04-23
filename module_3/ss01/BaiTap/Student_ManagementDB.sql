@@ -19,8 +19,10 @@ create table `student_managementDB`.`teacher`(
      
 insert into teacher(name, age, country) values ("huyen", 34, "vietnam"), ("linh", 44, "vietnam"), ("chanh", 45, "vietnam");
 alter table teacher add gender int;
+
 -- update chi co the where id muon where toi name age thi dung lenh SET SQL _SAFE_UPDATE=0;
 -- tat quyen = 0, set ve 1 roi mo ve =1
+
 SET SQL_SAFE_UPDATES=0;
 update teacher set gender = 1; 
 SET SQL_SAFE_UPDATES=1;
