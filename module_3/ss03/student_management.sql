@@ -56,3 +56,24 @@ select StudentName, SubName, Mark from student
 inner join mark on student.StudentId = mark.StudentId
 inner join `subject`on `subject`.SubId = mark.SubId
 order by mark DESC, StudentName ASC;
+
+-- hiển thị số lượng sinh viên ở từng nơi
+select address as "Địa chỉ", count(studentid) as "Số lượng sinh viên" from student
+group by address;
+
+-- tính điểm trung bình các môn học của mỗi học viên
+select s.StudentId, s.StudentName, avg(mark) as "Avg Mark" from student s
+inner join mark m on s.StudentId = m.StudentId
+group by s.StudentId, s.StudentName;
+
+-- hiển thị những bạn học viên có điểm trung bình các môn học lớn hơn 15
+select s.studentid, s.studentname, avg(mark) from student s
+inner join mark m on s.studentid = m.studentid
+group by s.studentid, s.studentname
+having avg(mark) > 15;
+
+-- hiển thị thông tin các học viên có điểm trung bình lớn nhất
+select s.studentid, s.studentname, avg(mark) from student s
+inner join mark m on s.studentid = m.studentid
+group by s.studentid, s.studentname
+having avg(mark) >= all(select avg(mark) from mark group by studentid);
