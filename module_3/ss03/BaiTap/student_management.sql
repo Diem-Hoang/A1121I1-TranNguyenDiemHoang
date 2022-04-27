@@ -41,7 +41,18 @@ CREATE TABLE Mark
 select * from student where StudentName like "h%";
 
 -- hiển thị các thông tin lớp học có thời gian bắt đầu vào tháng 12
-select * from class where StartDate;
+select * from class where month(StartDate) = 12;
 
 -- hiển thị tất cả các thông tin môn học có credit trong khoảng từ 3-5
 select * from `subject` where credit between 3 and 5;
+
+-- thay đổi mã lớp(ClassID) của sinh viên có tên ‘Hung’ là 2
+update `student` set ClassID = 2 where StudentName = 'Hung' and StudentID = 1;
+
+-- hiển thị các thông tin: StudentName, SubName, Mark
+-- dữ liệu sắp xếp theo điểm thi (mark) giảm dần. nếu trùng sắp theo tên tăng dần
+
+select StudentName, SubName, Mark from student
+inner join mark on student.StudentId = mark.StudentId
+inner join `subject`on `subject`.SubId = mark.SubId
+order by mark DESC, StudentName ASC;
