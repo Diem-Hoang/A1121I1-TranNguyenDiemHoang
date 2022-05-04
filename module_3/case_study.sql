@@ -256,8 +256,73 @@ join hop_dong hd on kh.ma_khach_hang = hd.ma_khach_hang
 join dich_vu dv on hd.ma_dich_vu = dv.ma_dich_vu
 join hop_dong_chi_tiet hdct on hd.ma_hop_dong = hdct.ma_hop_dong
 join dich_vu_di_kem dvdk on hdct.ma_dich_vu_di_kem = dvdk.ma_dich_vu_di_kem
-set kh.ma_loai_khach = 1
+set kh.ma_loai_khach = 1 
 where kh.ma_loai_khach = 2 and year(hd.ngay_lam_hop_dong) = 2021 and (dv.chi_phi_thue + hdct.so_luong * dvdk.gia) > 10000000;
 
 -- 18. xóa những khách hàng có hợp đồng trước năm 2021 (chú ý ràng buộc giữa các bảng)
 
+-- 19. cập nhật giá cho các dịch vụ đi kèm được sử dụng trên 10 lần trong năm 2020 lên gấp đôi
+update dich_vu_di_kem dvdk
+join hop_dong_chi_tiet hdct on dvdk.ma_dich_vu_di_kem = hdct.ma_dich_vu_di_kem
+join hop_dong hd on hdct.ma_hop_dong = hd.ma_hop_dong
+set dvdk.gia = dvdk.gia*2
+where (hdct.so_luong > 10) and year(hd.ngay_lam_hop_dong) = 2020;
+
+-- 20. hiển thị thông tin tất cả các nhân viên và khách hàng có trong hệ thống
+-- thông tin hiển thị bao gồm id (ma_nhan_vien, ma_khach_hang), ho_ten, email, so_dien_thoai, ngay_sinh, dia_chi
+select ma_nhan_vien, ho_ten, email, so_dien_thoai, ngay_sinh, dia_chi from nhan_vien
+union all
+select ma_khach_hang, ho_ten, email, so_dien_thoai, ngay_sinh, dia_chi from khach_hang;
+
+-- 21. tạo khung nhìn có tên là v_nhan_vien để lấy được thông tin tất cả các nhân viên 
+-- có địa chỉ là “Gia Lai” và đã từng lập hợp đồng cho một hoặc nhiều khách hàng bất kì với ngày lập hợp đồng là “08/12/2020”
+drop view v_nhan_vien;
+
+create view v_nhan_vien as
+select nv.* from nhan_vien nv
+join hop_dong hd on nv.ma_nhan_vien = hd.ma_nhan_vien
+where nv.dia_chi like "%Liên Chiểu%" and hd.ngay_lam_hop_dong = "2020-12-08";
+select * from v_nhan_vien;
+
+-- 22. thông qua khung nhìn v_nhan_vien thực hiện cập nhật địa chỉ thành “Liên Chiểu” đối với tất cả các nhân viên được nhìn thấy bởi khung nhìn này
+update v_nhan_vien
+set v_nhan_vien.dia_chi = 'Liên Chiểu';
+
+-- 23. tạo Stored Procedure sp_xoa_khach_hang dùng để xóa thông tin của một khách hàng nào đó
+-- với ma_khach_hang được truyền vào như là 1 tham số của sp_xoa_khach_hang
+drop procedure sp_xoa_khach_hang;
+
+delimiter //
+create procedure sp_xoa_khach_hang(id int)
+begin
+delete from khach_hang where ma_khach_hang = id;
+end;
+// delimiter ;
+
+alter table hop_dong
+drop foreign key hop_dong_ibfk_2;
+alter table hop_dong 
+add constraint hop_dong_ibfk_2
+  foreign key (ma_khach_hang)
+  references khach_hang (ma_khach_hang)
+  on delete cascade  
+  on update cascade;
+  
+alter table hop_dong_chi_tiet
+drop foreign key hop_dong_chi_tiet_ibfk_1;
+alter table hop_dong_chi_tiet 
+add constraint hop_dong_chi_tiet_ibfk_1
+ foreign key(ma_hop_dong)
+ references hop_dong(ma_hop_dong)
+  on delete cascade  
+  on update cascade;  
+
+call sp_xoa_khach_hang(2);
+
+-- 24. tạo Stored Procedure sp_them_moi_hop_dong dùng để thêm mới vào bảng hop_dong với yêu cầu sp_them_moi_hop_dong phải thực hiện kiểm tra tính hợp lệ của dữ liệu bổ sung
+-- với nguyên tắc không được trùng khóa chính và đảm bảo toàn vẹn tham chiếu đến các bảng liên quan
+delimiter //
+create procedure sp_them_moi_hop_dong()
+begin
+end;
+// delimiter ;
