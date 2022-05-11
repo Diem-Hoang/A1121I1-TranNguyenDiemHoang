@@ -1,0 +1,23 @@
+img.cangiua {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+img{
+    height: 50%;
+    width: 50%;
+}
+p {
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 20px;
+
+     /* change the margins as you want them to be. */
+}
+div{
+    background-color: antiquewhite;
+    margin-left: 370px;
+    margin-right: 370px;
+    height: 1000px;
+
+}

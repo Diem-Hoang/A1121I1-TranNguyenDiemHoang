@@ -1,0 +1,22 @@
+h1{
+    color: goldenrod;
+    background-color: bisque;
+    text-align: center;
+    border: 3px solid goldenrod;
+    border-radius: 10px 10px 10px 10px;
+   
+}
+p{
+    background-color: rgb(123, 209, 209);
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    border: 5px solid rgb(163, 176, 92);
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+#box{
+    /* display: inline-block; */
+    margin-left: 500px;
+    margin-top: 100px;
+}

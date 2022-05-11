@@ -292,13 +292,7 @@ set v_nhan_vien.dia_chi = 'Liên Chiểu';
 -- với ma_khach_hang được truyền vào như là 1 tham số của sp_xoa_khach_hang
 drop procedure sp_xoa_khach_hang;
 
-delimiter //
-create procedure sp_xoa_khach_hang(id int)
-begin
-delete from khach_hang where ma_khach_hang = id;
-end;
-// delimiter ;
-
+-- cách 1 use on delete cascade
 alter table hop_dong
 drop foreign key hop_dong_ibfk_2;
 alter table hop_dong 
@@ -315,14 +309,82 @@ add constraint hop_dong_chi_tiet_ibfk_1
  foreign key(ma_hop_dong)
  references hop_dong(ma_hop_dong)
   on delete cascade  
-  on update cascade;  
+  on update cascade;
 
-call sp_xoa_khach_hang(2);
+delimiter //
+create procedure sp_xoa_khach_hang(id int)
+begin
+delete from khach_hang where ma_khach_hang = id;
+end;
+// delimiter ;
+
+-- cách 2 set flag
+delimiter //
+create procedure sp_xoa_khach_hang(in id int)
+begin
+update khach_hang
+set flag = 0
+where ma_khach_hang = id;
+end;
+// delimiter ;
+
+call sp_xoa_khach_hang(5);
+alter table khach_hang 
+add flag bit;
+
+-- cách 3 set null
+ delimiter //
+ create procedure sp_xoa_khach_hang (in id int)
+ begin 
+ update hop_dong 
+ set ma_khach_hang = null
+ where ma_khach_hang = id;
+ delete from khach_hang
+ where ma_khach_hang = id;
+ end
+ // delimiter ;
+ call sp_xoa_khach_hang(4);
 
 -- 24. tạo Stored Procedure sp_them_moi_hop_dong dùng để thêm mới vào bảng hop_dong với yêu cầu sp_them_moi_hop_dong phải thực hiện kiểm tra tính hợp lệ của dữ liệu bổ sung
 -- với nguyên tắc không được trùng khóa chính và đảm bảo toàn vẹn tham chiếu đến các bảng liên quan
+drop procedure sp_them_moi_hop_dong;
+
 delimiter //
-create procedure sp_them_moi_hop_dong()
+create procedure sp_them_moi_hop_dong(in new_ma_hop_dong int, ngay_lam_hop_dong datetime, ngay_ket_thuc datetime, tien_dat_coc double, ma_nhan_vien int, ma_khach_hang int, ma_dich_vu int)
 begin
+if new_ma_hop_dong in (select ma_hop_dong from hop_dong) 
+ then 
+ select 'trùng mã hợp đồng' as 'error';
+ else 
+ insert into hop_dong
+ values(new_ma_hop_dong, ngay_lam_hop_dong, ngay_ket_thuc, tien_dat_coc, ma_nhan_vien, ma_khach_hang, ma_dich_vu);
+end if;
 end;
 // delimiter ;
+
+ call sp_them_moi_hop_dong(14, '2022-05-06', '2022-06-06', 5000, 4, 7, 2);
+
+-- 25. tạo Trigger có tên tr_xoa_hop_dong khi xóa bản ghi trong bảng hop_dong thì hiển thị tổng số lượng bản ghi còn lại có trong bảng hop_dong ra giao diện console của database
+drop trigger tr_xoa_hop_dong;
+
+delimiter //
+create trigger tr_xoa_hop_dong after delete on hop_dong for each row
+begin
+declare so_luong int;
+set so_luong = (select count(*) from hop_dong);
+insert into total_record values (so_luong);
+end;
+// delimiter ;
+
+drop table total_record;
+create table  total_record(so_luong int);
+
+delete from hop_dong where ma_hop_dong = 14;
+select * from  total_record;
+
+-- 26. tạo Trigger có tên tr_cap_nhat_hop_dong khi cập nhật ngày kết thúc hợp đồng
+-- cần kiểm tra xem thời gian cập nhật có phù hợp hay không, với quy tắc sau: 
+-- ngày kết thúc hợp đồng phải lớn hơn ngày làm hợp đồng ít nhất là 2 ngày
+-- nếu dữ liệu hợp lệ thì cho phép cập nhật, nếu dữ liệu không hợp lệ thì in ra thông báo 
+-- “Ngày kết thúc hợp đồng phải lớn hơn ngày làm hợp đồng ít nhất là 2 ngày” trên console của database
+
