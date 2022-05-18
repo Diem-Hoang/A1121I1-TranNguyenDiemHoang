@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Web Design</title>
+</head>
+<body>
+<style>
+    
+</style>
+    <script>
+        $(document).ready(function() {
+            $('#toggle').click(function() {
+                $('nav').slideToggle();
+            });
+        })
+    </script>
+    <div id="wrapper">
+        <div id="header">
+            <div id="toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul id="main-menu">
+                    <li>
+                        <a href="#">Logo</a>
+                    </li>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">Login</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <section class="row col-md-12">
+        <aside class="row col-md-2 link-list">
+            <ul>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </aside>
+        <content class="row col-md-8">
+            <div style="margin: 20px;">
+                <h1>Welcome</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis ullamcorper ultrices. 
+                    Aliquam rhoncus, mauris a pretium laoreet, felis arcu euismod leo, et tincidunt dolor diam at nibh. 
+                    Duis a lectus velit. Nullam sodales dictum metus ac sodales. 
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi eget blandit justo, a semper quam. 
+                    Proin a quam vel mauris interdum lobortis ut eu nisi. Nulla at tellus ac mauris tristique porttitor non sed ipsum. 
+                    Nunc vel semper erat. In hac habitasse platea dictumst. Fusce vitae molestie urna. Fusce vel massa finibus, posuere massa a, pulvinar risus. 
+                    Aenean fringilla dui et ipsum accumsan, id malesuada arcu porttitor. 
+                    Curabitur consequat at neque eget pulvinar. 
+                    Pellentesque cursus ex nisi, in porta lorem bibendum vitae. Nam maximus nibh eget ultricies dignissim.</p>
+            </div>
+            <div style="margin: 20px;">
+                <h1>Test</h1>
+                <p>Lorem ipsum...</p>
+            </div>
+        </content>
+        <aside class="row col-md-2">
+            <div class="row ads"> ADS</div>
+            <div class="row ads"> ADS</div>
+        </aside>
+    </section>
+    <footer class="row col-md-12 d-flew" style="justify-content:center; align-item:center">Footer Text</footer>
+</body>
+</html>
