@@ -9,8 +9,8 @@
     <p>List Price: ${price}</p>
     <p>Discount Percent: ${percent}</p>
     <hr>
-    <p>Discount Amount: ${discount_amount}</p>
-    <p>Discount Price: ${discount_price}</p>
+    <p>Discount Amount: ${discountAmount}</p>
+    <p>Discount Price: ${discountPrice}</p>
 </div>
 </body>
 </html>
