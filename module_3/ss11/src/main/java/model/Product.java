@@ -2,7 +2,7 @@ package model;
 
 public class Product {
 //    Các thuộc tính của sản phẩm bao gồm: id, tên sản phẩm, giá sản phẩm, mô tả của sản phẩm, nhà sản xuất.
-    private String id;
+    private int id;
     private String nameProduct;
     private String price;
     private String description;
@@ -11,7 +11,7 @@ public class Product {
     public Product() {
     }
 
-    public Product(String id, String nameProduct, String price, String description, String manufacturer) {
+    public Product(int id, String nameProduct, String price, String description, String manufacturer) {
         this.id = id;
         this.nameProduct = nameProduct;
         this.price = price;
@@ -19,7 +19,11 @@ public class Product {
         this.manufacturer = manufacturer;
     }
 
-    public void setId(String id) {
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
         this.id = id;
     }
 
