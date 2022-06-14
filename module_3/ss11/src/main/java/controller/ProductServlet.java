@@ -87,10 +87,11 @@ public class ProductServlet extends HttpServlet {
         String description = request.getParameter("description");
         String manufacturer = request.getParameter("manufacturer");
 
-        Product customer = new Product(id, nameProduct, price, description, manufacturer);
-        this.productService.save(customer);
-        RequestDispatcher dispatcher = request.getRequestDispatcher("product/create.jsp");
-        request.setAttribute("message", "New customer was created");
+        Product product = new Product(id, nameProduct, price, description, manufacturer);
+        this.productService.save(product);
+        request.setAttribute("products",productService.findAll());
+        RequestDispatcher dispatcher = request.getRequestDispatcher("product/list.jsp");
+        request.setAttribute("message", "New product was created");
         try {
             dispatcher.forward(request, response);
         } catch (ServletException e) {
