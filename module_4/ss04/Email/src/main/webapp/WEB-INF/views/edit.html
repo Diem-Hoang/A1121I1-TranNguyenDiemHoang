@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+</head>
+<body>
+<h1 style="font-family: 'Baskerville Old Face';font-size:40px; text-align: center">Edit Email</h1>
+<form th:action="@{/email/edit}" method="post" th:object="${email}" novalidate="novalidate">
+    <input type="text" hidden th:field="*{id}">
+    <div class="form-group">
+        <label>Language: </label>
+        <select  name="language">
+            <option th:each="language: ${language}" th:field="*{language}" th:text="${language}" th:value="${language}"></option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Page size: </label>
+        <select  name="page">
+            <option th:each="page: ${page}" th:field="*{page}" th:text="${page}" th:value="${page}"></option>
+        </select>
+    </div>
+    <div th:if="${email.filter}" class="form-group">
+        <label>Spam filter: </label>
+        <input type="checkbox" th:field="*{filter}" checked>
+    </div>
+    <div th:unless="${email.filter}" class="form-group form-check">
+        <label>Spam filter: </label>
+        <input type="checkbox" th:field="*{filter}">
+    </div>
+    <div class="form-group">
+        <label>Signature: </label>
+        <input type="text" th:field="*{signature}">
+    </div>
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>
+
+
+</body>
+</html>
