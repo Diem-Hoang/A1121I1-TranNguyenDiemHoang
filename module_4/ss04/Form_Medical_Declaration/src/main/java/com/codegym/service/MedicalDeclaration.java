@@ -2,9 +2,13 @@ package com.codegym.service;
 
 import org.springframework.stereotype.Service;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+
 @Service
 public class MedicalDeclaration implements IMedicalDeclaration{
+
     @Override
     public List<MedicalDeclaration> findAll() {
         return null;

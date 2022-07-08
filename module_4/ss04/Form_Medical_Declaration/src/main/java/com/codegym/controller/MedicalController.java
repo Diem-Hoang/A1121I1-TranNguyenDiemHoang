@@ -14,11 +14,17 @@ import java.util.List;
 @Controller
 @RequestMapping("/list")
 public class MedicalController {
-    private final IMedicalDeclaration iMedicalDeclaration = new MedicalDeclaration();
     @GetMapping("")
-    public String index(Model model) {
-        List<MedicalDeclaration> medicalDeclarations = iMedicalDeclaration.findAll();
-        model.addAttribute("list", medicalDeclarations);
-        return "list";
+    public String showForm(Model model){
+        String [] thongtindilai = {"Tàu bay", "Tàu thuyền", "Ô tô", "Khác (Ghi rõ)"};
+        String [] gioitinh = {"Nam", "Nữ", "Khác"};
+        String [] quoctich = {"Việt Nam", "Nhật Bản", "Trung Quốc", "Mỹ", "Anh", "Pháp"};
+        model.addAttribute("medical" ,new MedicalDeclaration());
+        model.addAttribute("thongtindilai",thongtindilai);
+        model.addAttribute("gioitinh" ,gioitinh  );
+        model.addAttribute("quoctich" ,quoctich  );
+        return "form";
+
     }
+
 }

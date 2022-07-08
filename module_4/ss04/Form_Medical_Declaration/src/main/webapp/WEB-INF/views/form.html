@@ -8,5 +8,66 @@
 </head>
 <body>
 <h1 style="font-family: 'Baskerville Old Face';font-size:40px; text-align: center">TỜ KHAI Y TẾ</h1>
+<h5>ĐÂY LÀ TÀI LIỆU QUAN TRỌNG, THÔNG TIN CỦA ANH/CHỊ SẼ GIÚP CƠ QUAN Y TẾ LIÊN LẠC KHI CẦN THIẾT ĐỂ PHÒNG
+    CHỐNG DỊCH BỆNH TRUYỀN NHIỄM</h5>
+<h6 style="color: red">Khuyến cáo: Khai báo thông tin sai là vi phạm pháp luật Việt Nam và có thể xử lý hình
+    sự</h6>
+<form>
+    <div class="form-row">
+            <label for="validationDefault01">Họ và tên (ghi chữ IN HOA)<span
+                    class="red">(*)</span></label>
+            <input type="text" class="form-control" id="validationDefault0" required>
+    </div>
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+            <label for="validationDefault01">Năm sinh<span
+                    class="red">(*)</span></label>
+            <input type="text" class="form-control" id="validationDefault01" required>
+        </div>
+        <div class="col-md-4 mb-3 dropdown-menu">
+            <label>Giới tính<span
+                    class="red">(*)</span></label>
+            <select  th:field="*{gioitinh}"  class="form-control" >
+                <option th:value="'true'" th:text="Nam"></option>
+                <option th:value="'false'" th:text="Nữ"></option>
+            </select>
+        </div>
+        <div class="col-md-4 mb-3">
+            <label>Quốc tịch<span
+                    class="red">(*)</span></label>
+            <select  th:field="*{quoctich}"  class="form-control" >
+                <option th:value="'Việt Nam'" th:text="Việt Nam"></option>
+                <option th:value="'Mỹ'" th:text="Mỹ"></option>
+            </select>
+        </div>
+
+    </div>
+    <div class="form-row">
+        <div class="col-md-6 mb-3">
+            <label for="validationDefault03">City</label>
+            <input type="text" class="form-control" id="validationDefault03" required>
+        </div>
+        <div class="col-md-3 mb-3">
+            <label for="validationDefault04">State</label>
+            <select class="custom-select" id="validationDefault04" required>
+                <option selected disabled value="">Choose...</option>
+                <option>...</option>
+            </select>
+        </div>
+        <div class="col-md-3 mb-3">
+            <label for="validationDefault05">Zip</label>
+            <input type="text" class="form-control" id="validationDefault05" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+            <label class="form-check-label" for="invalidCheck2">
+                Agree to terms and conditionsvvvvvvvvvvvvvvvvvvvvv
+            </label>
+        </div>
+    </div>
+    <button class="btn btn-primary" type="submit">Submit form</button>
+</form>
 </body>
 </html>
