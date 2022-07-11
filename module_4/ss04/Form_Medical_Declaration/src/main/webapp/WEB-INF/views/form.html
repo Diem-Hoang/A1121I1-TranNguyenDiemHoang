@@ -24,20 +24,24 @@
                     class="red">(*)</span></label>
             <input type="text" class="form-control" id="validationDefault01" required>
         </div>
-        <div class="col-md-4 mb-3 dropdown-menu">
-            <label>Giới tính<span
-                    class="red">(*)</span></label>
-            <select  th:field="*{gioitinh}"  class="form-control" >
-                <option th:value="'true'" th:text="Nam"></option>
-                <option th:value="'false'" th:text="Nữ"></option>
-            </select>
-        </div>
+<!--        <div class="col-md-4 mb-3 dropdown-menu">-->
+<!--            <label>Giới tính<span-->
+<!--                    class="red">(*)</span></label>-->
+<!--            <select  th:field="*{gioitinh}"  class="form-control" >-->
+<!--                <option th:value="'true'" th:text="Nam"></option>-->
+<!--                <option th:value="'false'" th:text="Nữ"></option>-->
+<!--            </select>-->
+<!--        </div>-->
         <div class="col-md-4 mb-3">
             <label>Quốc tịch<span
                     class="red">(*)</span></label>
             <select  th:field="*{quoctich}"  class="form-control" >
                 <option th:value="'Việt Nam'" th:text="Việt Nam"></option>
                 <option th:value="'Mỹ'" th:text="Mỹ"></option>
+                <option th:value="'Anh'" th:text="Anh"></option>
+                <option th:value="'Pháp'" th:text="Pháp"></option>
+                <option th:value="'Trung Quốc'" th:text="Trung Quốc"></option>
+                <option th:value="'Nhật Bản'" th:text="Nhật Bản"></option>
             </select>
         </div>
 
@@ -63,7 +67,7 @@
         <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
             <label class="form-check-label" for="invalidCheck2">
-                Agree to terms and conditionsvvvvvvvvvvvvvvvvvvvvv
+
             </label>
         </div>
     </div>
